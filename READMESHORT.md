@@ -2,7 +2,7 @@
 
 ### MITM Domain-Fronted HTTP Relay + Cloudflare Worker Exit
 
-[![GitHub](https://img.shields.io/badge/GitHub-MHR_CFW-red?logo=github)](https://github.com/therealcomerun/freedom)
+[![GitHub](https://img.shields.io/badge/GitHub-MHR_GAS-red?logo=github)](https://github.com/therealcomerun/freedom)
 
 
 | [English](README.md) | [Persian](README_FA.md) |
