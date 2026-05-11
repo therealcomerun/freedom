@@ -1,4 +1,4 @@
-# MHR-CFW — راهنمای کامل راه‌اندازی
+# Master HTTP Relay by Google Apps Script — راهنمای کامل راه‌اندازی
 
 <div dir="rtl">
 
@@ -27,7 +27,7 @@
 
 ## پروژه چیست؟
 
-**MHR-CFW** یک پروکسی محلی است که ترافیک اینترنت شما را از طریق زیرساخت Google و Cloudflare عبور می‌دهد تا سیستم‌های DPI (بازرسی عمیق بسته) نتوانند آن را شناسایی و فیلتر کنند.
+**Master HTTP Relay by Google Apps Script** یک پروکسی محلی است که ترافیک اینترنت شما را از طریق زیرساخت Google و Cloudflare عبور می‌دهد تا سیستم‌های DPI (بازرسی عمیق بسته) نتوانند آن را شناسایی و فیلتر کنند.
 
 از دید سیستم فیلترینگ، همه ترافیک شما شبیه ارتباط عادی با `www.google.com` به نظر می‌رسد، در حالی که درخواست‌های واقعی شما به هر سایتی که بخواهید ارسال می‌شوند.
 
@@ -100,8 +100,8 @@ python3 --version
 ### روش اول: با Git
 
 ```bash
-git clone https://github.com/denuitt1/mhr-cfw.git
-cd mhr-cfw
+git clone https://github.com/therealcomerun/freedom.git
+cd freedom
 ```
 
 ### روش دوم: دانلود مستقیم
@@ -129,7 +129,7 @@ source .venv/bin/activate
 ```
 پس از فعال شدن:
 ```
-(.venv) user@host:~/mhr-cfw$
+(.venv) user@host:~/freedom$
 ```
 
 > برای **خروج** از محیط مجازی در هر زمان، کافی است تایپ کنید:
@@ -400,7 +400,7 @@ Proxy IP    : 127.0.0.1
 Port        : 8085
 ```
 
-**۴.** یک نام دلخواه بدهید (مثلاً «MHR-CFW») و ذخیره کنید.
+**۴.** یک نام دلخواه بدهید (مثلاً «Master HTTP Relay by Google Apps Script») و ذخیره کنید.
 
 **۵.** از آیکون FoxyProxy، پروکسی ساخته‌شده را فعال کنید.
 
@@ -777,7 +777,7 @@ sudo python main.py --install-cert
 
 برای Ubuntu/Debian می‌توانید دستی هم نصب کنید:
 ```bash
-sudo cp ca/ca.crt /usr/local/share/ca-certificates/mhr-cfw.crt
+sudo cp ca/ca.crt /usr/local/share/ca-certificates/freedom.crt
 sudo update-ca-certificates
 ```
 
@@ -964,7 +964,7 @@ python main.py --uninstall-cert
 ## ساختار فایل‌های پروژه
 
 ```
-mhr-cfw/
+freedom/
 ├── main.py                  ← نقطه ورود اصلی
 ├── setup.py                 ← wizard راه‌اندازی
 ├── config.json              ← تنظیمات شما (ساخته نمی‌شود، باید بسازید)
