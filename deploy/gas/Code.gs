@@ -1,7 +1,7 @@
 // Google Apps Script
 
-const AUTH_KEY = "?";
-const WORKER_URL = "?";
+const AUTH_KEY = "Libra0010!@#";
+const WORKER_URL = "https://broad-heart-73cb.idev-softwaregroup.workers.dev/";
 
 const SKIP_HEADERS = {
   host: 1,
