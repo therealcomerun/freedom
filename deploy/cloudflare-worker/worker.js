@@ -1,6 +1,6 @@
 // Cloudflare Worker
 
-const WORKER_URL = "https://broad-heart-73cb.idev-softwaregroup.workers.dev/";
+const WORKER_URL = "broad-heart-73cb.idev-softwaregroup.workers.dev";
 
 const DEFAULT_UPSTREAM_TIMEOUT_MS = 25000;
 
